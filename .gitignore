@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/
+wd50*
+src/new_ckpts/*
+log/
+src/eval_result/*
+result*
