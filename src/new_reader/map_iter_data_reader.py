@@ -278,8 +278,8 @@ class Single_Iter_Query_Dataset:
                     for query_idx in new_dict:
                         query_dict = new_dict[query_idx]
                         len_bigger = False
-                        idx = int(query_idx.split("_")[-1])
-                        if idx % 100 == 0: logger.info("query %s - %d" % (self.query_type, idx) )
+                        # idx = int(query_idx.split("_")[-1])
+                        # if idx % 100 == 0: logger.info("query %s - %d" % (self.query_type, idx) )
                         op_num = len(query_dict)
                         assert op_num % 2 == 0
                         hrf_num = op_num // 2
