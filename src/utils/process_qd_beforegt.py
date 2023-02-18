@@ -2,7 +2,7 @@ vocab_size = {
     'wd50k_qe_2000':47688, 
     'wd50k_qe_100':47688, 
     'wd50k_qe': 47688,
-    'wd50k_json': 46335,
+    'wd50k_nfol': 46335,
     "fb15k_237_json": 14981,
     'wd50k_vocab': 47688,
     }
@@ -10,7 +10,7 @@ num_relations = {
     'wd50k_qe_2000':531,     
     'wd50k_qe_100':531, 
     'wd50k_qe': 531,
-    "wd50k_json": 517,
+    "wd50k_nfol": 517,
     "fb15k_237_json": 474,
     'wd50k_vocab': 531,
     }
@@ -18,7 +18,7 @@ max_seq_len = {
     'wd50k_qe_2000':7, 
     'wd50k_qe_100':7, 
     'wd50k_qe':7,
-    "wd50k_json": 19,
+    "wd50k_nfol": 19,
     "fb15k_237_json": 7,
     'wd50k_vocab': 19,
     }
@@ -26,7 +26,7 @@ max_arity = {
     'wd50k_qe_2000':4,     
     'wd50k_qe_100':4, 
     'wd50k_qe': 4,
-    "wd50k_json": 10,
+    "wd50k_nfol": 10,
     "fb15k_237_json": 4,
     'wd50k_vocab': 10,
     }
