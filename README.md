@@ -28,7 +28,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-
 ### Configure the Dataset
 
 We tested the effectiveness of our model on two datasets, including the WD50K-QE dataset and the WD50K-NFOL dataset.
@@ -74,9 +73,7 @@ python src/map_iter_qe.py --dataset wd50k_nfol --epoch 30 --gpu_index 0
 
 ## Evaluation ##
 
-You can only run prediction using "src/map_iter_qe.py" by with argument "do_learn" False and argument "do_predict" True.
-
-In this case, you need to select the ckpts file you want to use and configure the "prediction_ckpt" argument as you want.
+After training, you can only run prediction using "src/map_iter_qe.py" by with argument "do_learn" False and argument "do_predict" True. In this case, you need to select the ckpts file you want to use and configure the "prediction_ckpt" argument as you want.
 
 * For WD50K-QE dataset:
 ```
