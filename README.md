@@ -68,7 +68,7 @@ python src/map_iter_qe.py --dataset wd50k_qe --epoch 300 --gpu_index 0
 
 * For WD50K-NFOL dataset:
 ```
-python src/map_iter_qe.py --dataset wd50k_nfol --epoch 30 --gpu_index 0
+python src/map_iter_qe.py --dataset wd50k_nfol --epoch 50 --gpu_index 0
 ```
 
 ## Evaluation ##
