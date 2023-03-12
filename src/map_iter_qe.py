@@ -8,7 +8,7 @@ import shutil
 import argparse
 import multiprocessing
 import os
-
+import random
 import logging
 import numpy as np
 from tqdm import tqdm
@@ -34,6 +34,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 logger.info(logger.getEffectiveLevel())
+
+def setseed():
+    random.seed(42)
+    np.random.seed(42)
+    torch.manual_seed(42)
+    torch.cuda.manual_seed(42)
+    torch.cuda.manual_seed_all(42)
 
 parser = argparse.ArgumentParser()
 
@@ -111,6 +118,7 @@ parser.add_argument("--relative_test_gt_dir", default="/gt", type=str)
 args = parser.parse_args()
 
 def main(args):
+    setseed()
     if not os.path.exists("log"):
         os.mkdir("log")    
         if not os.path.exists("log/validation"):
