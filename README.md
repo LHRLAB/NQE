@@ -38,7 +38,7 @@ We tested the effectiveness of our model on two datasets, including the WD50K-QE
 unzip wd50k_qe.zip -d data/
 ```
 
-* WD50K-NFOL is a hyper-relational dataset we created covering logical operations including conjunction, disjunction and negation as well as combined operations. We call it "wd50k_nfol" in the code. You can download and upzip the WD50K-NFOL dataset file from [TeraBox] or [Baidu Netdisk]. (Comming soon.)
+* WD50K-NFOL is a hyper-relational dataset we created covering logical operations including conjunction, disjunction and negation as well as combined operations. We call it "wd50k_nfol" in the code. You can download and upzip the WD50K-NFOL dataset file from [TeraBox](https://terabox.com/s/1PeVhUGuxUCQyzwFqv15ajQ) or [Baidu Netdisk](https://pan.baidu.com/s/1l5ab9HfMfyxuiMoG-QBfrw?pwd=ak7g).
 
 ```
 unzip wd50k_nfol.zip -d data/
