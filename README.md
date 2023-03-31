@@ -91,7 +91,7 @@ If you find this work is helpful for your research, please cite:
 
 ```bibtex
 @article{luo2022nqe,
-  title={NQE: N-ary Query Embedding for Complex Query Answering over Hyper-relational Knowledge Graphs},
+  title={NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs},
   author={Luo, Haoran and E, Haihong and Yang, Yuhao and Zhou, Gengxian and Guo, Yikai and Yao, Tianyu and Tang, Zichen and Lin, Xueyuan and Wan, Kaiyang},
   journal={arXiv preprint arXiv:2211.13469},
   year={2022}
