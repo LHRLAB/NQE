@@ -1,6 +1,6 @@
 # NQE
 
-Official resources of **"NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs"**. Haoran Luo, Haihong E, Yuhao Yang, Gengxian Zhou, Yikai Guo, Tianyu Yao, Zichen Tang, Xueyuan Lin, Kaiyang Wan. **AAAI 2023** \[[paper](https://doi.org/10.48550/arXiv.2211.13469)\]. 
+Official resources of **"NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs"**. Haoran Luo, Haihong E, Yuhao Yang, Gengxian Zhou, Yikai Guo, Tianyu Yao, Zichen Tang, Xueyuan Lin, Kaiyang Wan. **AAAI 2023** \[[paper](https://doi.org/10.1609/aaai.v37i4.25576)\]. 
 
 **Please also star the main code contributor [Yuhao Yang](https://github.com/TimeFighter818/NQE_Nary_Query_Embedding) from BUAA.**
 
@@ -90,11 +90,15 @@ python src/map_iter_qe.py --dataset wd50k_nfol --do_learn False --do_predict Tru
 If you find this work is helpful for your research, please cite:
 
 ```bibtex
-@article{luo2022nqe,
-  title={NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs},
-  author={Luo, Haoran and E, Haihong and Yang, Yuhao and Zhou, Gengxian and Guo, Yikai and Yao, Tianyu and Tang, Zichen and Lin, Xueyuan and Wan, Kaiyang},
-  journal={arXiv preprint arXiv:2211.13469},
-  year={2022}
+@article{luo2023nqe, 
+  title={NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs}, 
+  volume={37}, 
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/25576}, 
+  DOI={10.1609/aaai.v37i4.25576}, 
+  author={Luo, Haoran and E, Haihong and Yang, Yuhao and Zhou, Gengxian and Guo, Yikai and Yao, Tianyu and Tang, Zichen and Lin, Xueyuan and Wan, Kaiyang}, 
+  year={2023}, 
+  month={Jun.}, 
+  pages={4543-4551} 
 }
 ```
 
