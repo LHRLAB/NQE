@@ -50,11 +50,11 @@ Then, we should generate the groundtruth of the chosen dataset for evaluation. I
 
 * For WD50K-QE dataset:
 ```
-python src/generate_groundtrurh.py --dataset wd50k_qe
+python src/generate_groundtruth.py --dataset wd50k_qe
 ```
 * For WD50K-NFOL dataset:
 ```
-python src/generate_groundtrurh.py --dataset wd50k_nfol
+python src/generate_groundtruth.py --dataset wd50k_nfol
 ```
 
 ## Model Training ##
