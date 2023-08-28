@@ -102,7 +102,7 @@ class Sequence_Encoder(torch.nn.Module):
             enc_input=emb_out,
             edges_query=edges_query,
             edges_key=edges_key,
-            edges_value=edges_key,
+            edges_value=edges_value,
             attn_bias=n_head_self_attn_mask)   
 
         h_masked = _enc_out.gather(dim=1, index=mask_pos.unsqueeze(-1).repeat(1, 1, self._emb_size)).squeeze()

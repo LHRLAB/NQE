@@ -2,8 +2,6 @@
 
 Official resources of **"NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs"**. Haoran Luo, Haihong E, Yuhao Yang, Gengxian Zhou, Yikai Guo, Tianyu Yao, Zichen Tang, Xueyuan Lin, Kaiyang Wan. **AAAI 2023** \[[paper](https://doi.org/10.1609/aaai.v37i4.25576)\]. 
 
-**Please also star the main code contributor [Yuhao Yang](https://github.com/TimeFighter818/NQE_Nary_Query_Embedding) from BUAA.**
-
 ## Overview
 An example of n-ary FOL query:
 ![](./figs/F1.drawio.png)
