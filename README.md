@@ -30,13 +30,13 @@ pip install -r requirements.txt
 
 We tested the effectiveness of our model on two datasets, including the WD50K-QE dataset and the WD50K-NFOL dataset.
 
-* WD50K-QE dataset is a dataset created with the multi-hop reasoning method StarQE. It covering multi-hop reasoning with conjunction logic operation. We call it "wd50k_qe" in the code. You can download and upzip the WD50K-QE dataset file from [TeraBox](https://terabox.com/s/1jiIHls_9FSoY--ULOMpcOg) or [Baidu Netdisk](https://pan.baidu.com/s/1IIFaPfXQIKKdWbX1HX6heA?pwd=26mp).
+* WD50K-QE dataset is a dataset created with the multi-hop reasoning method StarQE. It covering multi-hop reasoning with conjunction logic operation. We call it "wd50k_qe" in the code. You can download and upzip the WD50K-QE dataset file from [TeraBox](https://1024terabox.com/s/1ZteuaNk2oq0VN17VccQt7w) or [Baidu Netdisk](https://pan.baidu.com/s/1IIFaPfXQIKKdWbX1HX6heA?pwd=26mp).
 
 ```
 unzip wd50k_qe.zip -d data/
 ```
 
-* WD50K-NFOL is a hyper-relational dataset we created covering logical operations including conjunction, disjunction and negation as well as combined operations. We call it "wd50k_nfol" in the code. You can download and upzip the WD50K-NFOL dataset file from [TeraBox](https://terabox.com/s/1qX58BMsVvTOZujndCFl9jg) or [Baidu Netdisk](https://pan.baidu.com/s/1D8ATQIEuwlZIa3LJJRjRPg?pwd=72ag). 
+* WD50K-NFOL is a hyper-relational dataset we created covering logical operations including conjunction, disjunction and negation as well as combined operations. We call it "wd50k_nfol" in the code. You can download and upzip the WD50K-NFOL dataset file from [TeraBox]([https://terabox.com/s/1qX58BMsVvTOZujndCFl9jg](https://1024terabox.com/s/1X7c-hHgtJAcrbf8Kdbpl_Q)) or [Baidu Netdisk](https://pan.baidu.com/s/1D8ATQIEuwlZIa3LJJRjRPg?pwd=72ag). 
 
 ```
 unzip wd50k_nfol.zip -d data/
